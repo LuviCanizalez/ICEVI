@@ -56,7 +56,6 @@ const setDefaultTheme = (element) => {
     });
  };
 
- 
  window.onload = getFontSize();
  setDefaultTheme(window);
  contrast(document.getElementById("contrast"));
