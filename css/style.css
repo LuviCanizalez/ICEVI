@@ -1,0 +1,132 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+html {
+    --font-size: 20px;
+    scroll-behavior: smooth;
+
+  }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: var(--body-text);
+    background: var(--background);
+    transition: background 1s ease;
+    padding-top: 8rem;
+
+  }
+body.light {
+    --background: #F1F2F9;
+    --btn-Acces: #005C06;
+    --btn-Acces-1: #E5982D;
+    --dropdown: #005005;
+    --dropdown-text: #f1f1f1;
+    --body-text: black;
+    --nav: #F1F2F9;
+    --nav-text: #005005;
+    --allies: #005C06;
+    --footer: #005005;
+    --footer-text: white;
+    --link-footer-border: 0.2em solid #f1f1f1;
+    --link-footer-text: #f1f1f1;
+
+}
+
+body.high {
+    --background: #27143C;
+    --btn-Acces: #DCC6E0;
+    --btn-Acces-1: #DCC6E0;
+    --btn-Acces-1-text: black;
+    --dropdown: #27143C;
+    --dropdown-text: #FCF951;
+    --body-text: #FCF951;
+    --nav: #DCC6E0;
+    --nav-text: black;
+    --allies: #DCC6E0;
+    --footer: #DCC6E0;
+    --footer-text: rgb(10, 2, 2);
+    --link-footer-border: 0.2em solid #2a5bb7;
+    --link-footer-text: #2a5bb7;
+
+}
+main{
+    font-size: var(--font-size);
+}
+nav #contrast{
+    color: var(--btn-Acces-1-text);
+    background-color: var(--btn-Acces-1);
+}
+h3{
+--font-size: 18px;
+}
+
+ul .dropdown-menu{
+    background-color: var(--nav);
+}
+ul .dropdown-menu li a:hover{
+    background-color: var(--dropdown);
+    color: var(--dropdown-text);
+}
+.valores{
+    background-color: var(--btn-Acces);
+    color: var(--background);
+    font-weight: bold;
+}
+.enlaces{
+    color: var(--link-footer-text);
+}
+.enlaces:hover{
+    color: var(--link-footer-text);
+    outline: var(--link-footer-border);
+  outline-offset: 0.1em;
+}
+
+ 
+body .nav_S {
+    background-color: var(--nav);
+    transition: background-color 1s ease;
+}
+body .nav_S ul li a{
+    color: var(--nav-text);
+    font-size: 1.3rem;
+}
+caption{
+   color: var(--body-text);
+}
+.btn_acces{
+    background-color: var(--btn-Acces);
+    color: var(--background);
+    transition: background-color 1s ease;
+}
+.btn_acces:hover{
+    background-color: var(--btn-Acces);
+    color: var(--background);
+}
+.table{
+    color: var(--body-text);
+}
+.redes_ico{
+    fill: var(--background)
+}
+
+#footer {
+    color: var(--footer-text);
+    background-color: var(--footer);
+    font-size: var(--font-size);
+}
+.footer_Lines{
+    background-color: var(--allies);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+    
+
+.section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
