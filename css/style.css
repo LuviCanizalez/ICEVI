@@ -48,8 +48,8 @@ body.high {
     --allies: #DCC6E0;
     --footer: #DCC6E0;
     --footer-text: rgb(10, 2, 2);
-    --link-footer-border: 0.2em solid #2a5bb7;
-    --link-footer-text: #2a5bb7;
+    --link-footer-border: 0.2em solid #000089;
+    --link-footer-text: #00004C;
 
 }
 main{
@@ -69,6 +69,11 @@ ul .dropdown-menu{
 ul .dropdown-menu li a:hover{
     background-color: var(--dropdown);
     color: var(--dropdown-text);
+}
+div .lista li{
+    background-color: var(--background);
+    color: var(--body-text);
+    transition: background-color 1s ease;
 }
 .valores{
     background-color: var(--btn-Acces);
@@ -95,6 +100,15 @@ body .nav_S ul li a{
 }
 caption{
    color: var(--body-text);
+}
+.modal-content{
+    background-color: var(--background);
+}
+.tarjeta_modal{
+    background-color: var(--background);
+}
+iframe html body div .c4{
+    max-width: 100%;
 }
 .btn_acces{
     background-color: var(--btn-Acces);

@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICEVI Latinoamérica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body >
+    <!--------------------------------------  BARRA DE NAVEGACION   ------------------------------------------>
+    <header> 
+      <nav role="navigation" class="navbar fixed-top navbar-expand-xl nav_S shadow p-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/LogoIcevi.svg" alt="Logo de IceviLatinoamérica" width="200" height="70" class="d-inline-block align-text-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" _mstaria-label="320099">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 150px;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>¿Quiénes somos?</strong>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="legalización.html">Legalización</a></li>
+                  <li><a class="dropdown-item" href="estructura_y_autoridades.html">Estructura y autoridades</a></li>
+                  <li><a class="dropdown-item" href="objetivos_estrategicos.html">Objetivos estrategicos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nuestro_trabajo.html">Nuestro trabajo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="monitoreo.html">Monitoreo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Delegados
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aliados.html" >Aliados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Publicaciones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Eventos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recursos.html">Recursos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Afiliate
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--------------------------------------  BARRA ACCESIBILIDAD   ------------------------------------------>
+    <div class="row container-fluid">
+      <div class="col-sm-12 col-md-5 col-lg-2">
+        <nav class="h-100 flex-column align-items-stretch pe-1 border-end ">
+          <nav class="nav nav-pills flex-column">
+            <h2 class="text-break text-center"> <span translate="no" class="material-symbols-outlined">
+              settings_accessibility
+              </span> Accesibilidad</h2>
+            <nav class="nav nav-pills">
+              <div class="d-grid col-sm-6 col-md-9 col-lg-11 gap-3 mx-auto">
+                <!------------- BOTONES ------------->
+                <button id="contrast" class="btn btn_acces rounded-4" type="button"><strong><span translate="no" class="align-bottom material-symbols-outlined">
+                  contrast
+                  </span>Alto contraste</strong></button>
+                <button id="increase" class="btn btn_acces rounded-4" type="button"><strong>Aumentar tamaño de letra</strong></button>
+                <button id="decrease" class="btn btn_acces rounded-4" type="button"><strong>Disminuir tamaño de letra</strong></button>
+              </div>
+            </nav>
+            <hr>
+            <blockquote class="blockquote">
+              <h2 class="text-break text-center"><span translate="no" class="material-symbols-outlined">
+                translate
+                </span> Idioma</h2>
+              <nav class="nav nav-pills flex-column">
+                <div class="d-grid mx-auto">
+                  <!------------- IDIOMA ------------->
+                    <li><div id="google_translate_element" class="google"></div></li>
+                    <script type="text/javascript">
+                      function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en,fr,it,pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+                              }
+                      </script>
+                      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                </div>
+              </nav>
+            </blockquote>
+          </nav>
+        </nav>
+      </div>
+    <!--------------------------------------  CONTENIDO   ------------------------------------------>
+      <div class="col-sm-12 col-md-7 col-lg-10">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+          <main role="main">
+            <div class="container mt-3 ">
+                <!--------------------------------------  INFORMACION DINAMICA   ------------------------------------------>
+                <h2 class="text-uppercase fw-bold">Monitoreo sobre estado de la educación inclusiva en América Latina</h2>
+                <hr>
+                <div class="row mb-3">
+                    <p>La regional del Concejo internacional para la Educación de las personas con discapacidad visual, <a translate="no"> ICEVI Latinoamérica:</a></p>
+                    <ul role="list" class="list-group list-group-flush  lista">
+                        <li role="listitem" class="list-group-item">● Sabiendo que la educación es claramente una obligación de los estados;</li>
+                        <li role="listitem" class="list-group-item">● Conscientes que en nuestra región existen brechas excluyentes que limitan a las personas con discapacidad a acceder a ella en igualdad de oportunidades,</li>
+                        <li role="listitem" class="list-group-item">● Opinamos que también es una tarea de todos y todas incidir para su efectivo cumplimiento como un ejercicio de ciudadanía. Dado que diferentes expertos internacionales apuntan como la única forma de alcanzar sociedades justas, equitativas, sostenibles, con mayores oportunidades para todas las personas sin diferenciar si existe una condición de discapacidad, decidió realizar entre el año 2018 y 2019, un monitoreo sobre el estado situacional de la Educación Inclusiva en América Latina.</li>
+                    </ul>
+                    <p>El monitoreo realizado por representantes de <a translate="no"> ICEVI Latinoamérica</a>  en cada país, estuvo basado en cinco aspectos técnicos de vital importancia para alcanzar una educación inclusiva de calidad; considerando algunos de los indicadores propuestos en las metas para el cumplimiento del ODS 4, el objetivo 4 del plan de acción para el decenio de las américas y el cumplimiento del art. 24 de la convención sobre derechos de personas con discapacidad de ONU.</p>
+                </div>
+                <div class="row mb-3">
+                    <h3 class="fw-bold">¿Cómo se realiza el monitoreo?</h3>
+                    <p>Con la guía técnica de la Junta Directiva, el apoyo económico de la Fundación Holandesa, y el trabajo en campo de las representaciones nacionales de <a translate="no">ICEVI Latinoamérica</a>  de 16 países de la región, se desarrolla una investigación basada en el consenso de 5 matrices conteniendo aspectos que se consideran fundamentales para la educación inclusiva de las personas con discapacidad visual.</p>
+                    <dl>
+                        <dt>Aspectos investigados:</dt>
+                            <dd>
+                              <ul>
+                                <li>Rehabilitación</li>
+                                <li>Accesibilidad</li>
+                                <li>Formación inclusiva</li>
+                                <li>Normativas jurídicas </li>
+                                <li>Datos estadísticos</li>
+                              </ul>  
+                            </dd>
+                  </dl>
+                  
+                </div>
+                <div class="row mb-3">
+                    <h3 class="fw-bold">¿Cómo lo realizamos?</h3>
+                    <p>Dado que <a translate="no">ICEVI Latinoamérica</a> está constituida por 5 subregiones, en cada una de ellas los delegados de ICEVI LA de los países que las conforman desarrollaron primero a su interior la investigación, esto fue realizado mediante entrevistas y solicitudes de información principalmente a Ministerios d educación, CONADIS, organizaciones privadas que prestan servicios de educación inclusiva, y Universidades; en muchos casos se tuvo que buscar información en los sitios web de las instituciones públicas dado que en la mayoría de ellos no hubo respuesta oficial a pesar de la solicitud realizada; ante esta realidad las representaciones nacionales que habían sido formadas online previamente por la Junta Directiva de ICEVI La, para indicarles los objetivos del monitoreo, se ; reunieron y analizaron los insumos investigados y definieron , entre una y tres prioridades por cada una de las cinco áreas investigadas, cada prioridad debería tener acciones país para desarrollarse en un periodo máximo de cuatro años, definiendo para ello una ruta país con metas e indicadores a cumplir.</p>
+                    <p>Posterior a este trabajo de cada país, en reuniones subregionales, se reunieron los representantes de 4, países para el cono sur, 4 para la subregión de Andina, 6 para el caso de Centroamérica caribe, donde cada país presentó sus prioridades y luego de debatir y consensuar entre ellos cada subregión definió 3, 2 o 1 prioridad por área de investigación; En el caso de Brasil y México por ser países continentales en sí mismos son una subregión, por lo que sus rutas son únicas.</p>
+                </div>
+                <!--------------------------------------  CARDS   ------------------------------------------>
+                <div class="mb-5">
+                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-5">
+                        <div class="col">
+                          <div class="card">
+                            <img role="img" src="../img/subregionmexico.png" class="" alt="Imagen ilustrativa de la subregión de México">
+                            <div class="card-footer text-center tarjeta_modal">
+                                <div class="btn-group" role="group" aria-label="Dos botones">
+                                    <button class="btn btn_acces" type="button" data-bs-toggle="modal" data-bs-target="#Modal1"><strong>Vista previa</strong></button>
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="Modal1">Acciones de la subregión de Centroamérica y El Caribe</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ratio ratio-16x9">
+                                                    <iframe class="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRn7u8i8SuK-xtkyioDCM-Gyfko8KTVMTo1rYi-5DXcVwqjcPau4f8G7z4JwvhH4w/pub?embedded=true" title="Acciones de la subregión de Centroamérica y El Caribe" allowfullscreen></iframe>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="btn btn_acces" type="button"><strong>Ver en Drive</strong></button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                              <img role="img" src="../img/subregionconosur.png" class="" alt="Imagen ilustrativa de la subregión del cono sur">
+                              <div class="card-footer text-center tarjeta_modal">
+                                  <div class="btn-group" role="group" aria-label="Dos botones">
+                                      <button class="btn btn_acces" type="button" data-bs-toggle="modal" data-bs-target="#Modal1"><strong>Vista previa</strong></button>
+                                      <!-- Modal -->
+                                      <div class="modal fade " id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                              <h1 class="modal-title fs-5" id="Modal1">Acciones de la subregión de Centroamérica y El Caribe</h1>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <div class="ratio ratio-16x9">
+                                                      <iframe class="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRn7u8i8SuK-xtkyioDCM-Gyfko8KTVMTo1rYi-5DXcVwqjcPau4f8G7z4JwvhH4w/pub?embedded=true" title="Acciones de la subregión de Centroamérica y El Caribe" allowfullscreen></iframe>
+                                                    </div>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                      
+                                      <button class="btn btn_acces" type="button"><strong>Ver en Drive</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img role="img" src="../img/subregionbrasil.png" class="" alt="Imagen ilustrativa de la subregión de Brasil">
+                              <div class="card-footer text-center tarjeta_modal">
+                                  <div class="btn-group" role="group" aria-label="Dos botones">
+                                      <button class="btn btn_acces" type="button" data-bs-toggle="modal" data-bs-target="#Modal1"><strong>Vista previa</strong></button>
+                                      <!-- Modal -->
+                                      <div class="modal fade " id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                              <h1 class="modal-title fs-5" id="Modal1">Acciones de la subregión de Centroamérica y El Caribe</h1>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <div class="ratio ratio-16x9">
+                                                      <iframe class="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRn7u8i8SuK-xtkyioDCM-Gyfko8KTVMTo1rYi-5DXcVwqjcPau4f8G7z4JwvhH4w/pub?embedded=true" title="Acciones de la subregión de Centroamérica y El Caribe" allowfullscreen></iframe>
+                                                    </div>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                      
+                                      <button class="btn btn_acces" type="button"><strong>Ver en Drive</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img role="img" src="../img/subregionandina.png" class="" alt="Imagen ilustrativa de la subregión Andina">
+                              <div class="card-footer text-center tarjeta_modal">
+                                  <div class="btn-group" role="group" aria-label="Dos botones">
+                                      <button class="btn btn_acces" type="button" data-bs-toggle="modal" data-bs-target="#Modal1"><strong>Vista previa</strong></button>
+                                      <!-- Modal -->
+                                      <div class="modal fade " id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                              <h1 class="modal-title fs-5" id="Modal1">Acciones de la subregión de Centroamérica y El Caribe</h1>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <div class="ratio ratio-16x9">
+                                                      <iframe class="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRn7u8i8SuK-xtkyioDCM-Gyfko8KTVMTo1rYi-5DXcVwqjcPau4f8G7z4JwvhH4w/pub?embedded=true" title="Acciones de la subregión de Centroamérica y El Caribe" allowfullscreen></iframe>
+                                                    </div>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                      
+                                      <button class="btn btn_acces" type="button"><strong>Ver en Drive</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img role="img" src="../img/subregioncaycaribe.png" class="" alt="Imagen ilustrativa de la subregión de América Central y el Caribe">
+                              <div class="card-footer text-center tarjeta_modal">
+                                  <div class="btn-group" role="group" aria-label="Dos botones">
+                                      <button class="btn btn_acces" type="button" data-bs-toggle="modal" data-bs-target="#Modal1"><strong>Vista previa</strong></button>
+                                      <!-- Modal -->
+                                      <div class="modal fade " id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                              <h1 class="modal-title fs-5" id="Modal1">Acciones de la subregión de Centroamérica y El Caribe</h1>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <div class="ratio ratio-16x9">
+                                                      <iframe class="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRn7u8i8SuK-xtkyioDCM-Gyfko8KTVMTo1rYi-5DXcVwqjcPau4f8G7z4JwvhH4w/pub?embedded=true" title="Acciones de la subregión de Centroamérica y El Caribe" allowfullscreen></iframe>
+                                                    </div>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                      
+                                      <button class="btn btn_acces" type="button"><strong>Ver en Drive</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img role="img" src="../img/latinoamerica.png" class="" alt="Imagen ilustrativa de Latinoamérica">
+                              <div class="card-footer text-center tarjeta_modal">
+                                  <div class="btn-group" role="group" aria-label="Dos botones">
+                                      <button class="btn btn_acces" type="button" data-bs-toggle="modal" data-bs-target="#Modal1"><strong>Vista previa</strong></button>
+                                      <!-- Modal -->
+                                      <div class="modal fade " id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                              <h1 class="modal-title fs-5" id="Modal1">Acciones de la subregión de Centroamérica y El Caribe</h1>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <div class="ratio ratio-16x9">
+                                                      <iframe class="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRn7u8i8SuK-xtkyioDCM-Gyfko8KTVMTo1rYi-5DXcVwqjcPau4f8G7z4JwvhH4w/pub?embedded=true" title="Acciones de la subregión de Centroamérica y El Caribe" allowfullscreen></iframe>
+                                                    </div>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                      
+                                      <button class="btn btn_acces" type="button"><strong>Ver en Drive</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  <!--------------------------------------  FOOTER   ------------------------------------------>
+  <div class="mt-auto">
+    <footer id="footer" class="page-footer">
+        <!-------- REDES SOCIALES -------->
+        <div class="footer_Lines">
+          <section class="container-md d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+            <!-- TEXTO -->
+            <div class="me-5 d-none d-lg-block fw-bold">
+              <span>Síguenos en nuestras redes sociales</span>
+            </div>
+            <!-- ICONOS -->
+            <div>
+              <a class="enlaces me-5" role="link" href="https://www.facebook.com/ICEVILatinoamerica/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="redes_ico "><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg><strong> Facebook ICEVI Latinoamérica </strong></a>
+              <a class="enlaces me-5" role="link" href="https://twitter.com/ICEVI_LA/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="redes_ico "><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg><strong> Twitter ICEVI Latinoamérica </strong></a>
+            </div>
+          </section>
+        </div>
+        <!------------- ENLACES ------------->
+          <section class="">
+            <div class="container text-center text-md-start mt-3">
+              <div class="row">
+                <!-- LOGO -->
+                <div class="col-md-4 col-lg-4 col-xl-2 mx-auto mb-3">
+                  <img src="../img/LogoIcevi.svg" alt="Logo de IceviLatinoamérica" width="100%" height="85%" class="d-inline-block align-text-top">
+                </div>
+                <!-- INFO -->
+                <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mb-3 mt-4">
+                  <h5 class="text-uppercase fw-bold ">
+                    Acerca de ICEVI
+                  </h5>
+                  <p>Organización internacional de carácter técnico, cuyo fin es promover la mejora continua de la educación de niños, niñas y jóvenes con discapacidad visual.</p>
+                </div>
+                <!-- ENLACE -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3 mt-4">
+                  <h5 class="text-uppercase fw-bold mb-1">
+                    Contáctanos
+                  </h5>
+                  <p><a class="enlaces" role="link" href="mailto:info@icevilatinoamerica.org"><strong>info@icevilatinoamerica.org</strong></a></p>
+                </div>
+              </div>
+            </div>
+          </section>
+      </footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="../js/accesibilidad.js"></script>
+  </body>
+</html>
