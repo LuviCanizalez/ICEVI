@@ -30,6 +30,8 @@ body.light {
     --allies: #005C06;
     --footer: #005005;
     --footer-text: white;
+    --link-body-border: 0.2em solid #000089;
+    --link-body-text: #00004C;
     --link-footer-border: 0.2em solid #f1f1f1;
     --link-footer-text: #f1f1f1;
 
@@ -47,7 +49,9 @@ body.high {
     --nav-text: black;
     --allies: #DCC6E0;
     --footer: #DCC6E0;
-    --footer-text: rgb(10, 2, 2);
+    --footer-text: rgb(10, 6, 2);
+    --link-body-border: 0.2em solid #F2CA27;
+    --link-body-text: #00FFFF;
     --link-footer-border: 0.2em solid #000089;
     --link-footer-text: #00004C;
 
@@ -88,7 +92,14 @@ div .lista li{
     outline: var(--link-footer-border);
   outline-offset: 0.1em;
 }
-
+.enlaces_body{
+    color: var(--link-body-text);
+}
+.enlaces_body:hover{
+    color: var(--link-body-text);
+    outline: var(--link-body-border);
+  outline-offset: 0.1em;
+}
  
 body .nav_S {
     background-color: var(--nav);
